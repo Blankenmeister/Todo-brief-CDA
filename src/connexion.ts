@@ -15,8 +15,7 @@ btnConnexion?.addEventListener("click", () => {
 
   if (email && email.value == "email@mail.com") {
     if (inputPassword && inputPassword.value == "123456") {
-      console.log("réussi");
-      document.location.href = "http://localhost:5173/todo";
+      document.location.href = "/todo";
     } else {
       if (messageError) {
         messageError.innerText = "Email ou mot de passe incorrecte";
